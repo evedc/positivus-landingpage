@@ -153,7 +153,7 @@ main {
     background-color: #F3F3F3;
     margin-top: 6%;
     flex-direction: column;
-    width: 26.875em;
+    width: 90%;
     height: 20.125em;
     border-radius: 20px;
     border: 1px solid #000000;
@@ -198,7 +198,7 @@ main {
 
 .boxes-container2 {
     display: flex;
-    width: 26.875em;
+    width: 90%;
     height: 20.125em;
     justify-content: center;
     align-items: center;
@@ -228,10 +228,9 @@ main {
 }
 
 
-
 .boxes-container3 {
     display: flex;
-    width: 26.875em;
+    width: 90%;
     height: 20.125em;
     justify-content: center;
     align-items: center;
@@ -270,7 +269,7 @@ main {
 
 .boxes-containerfinal {
     display: flex;
-    width: 26.875em;
+    width: 90%;
     height: 20.125em;
     justify-content: center;
     align-items: center;
