@@ -118,3 +118,13 @@ header {
     text-align: center;
     margin-top: 4%;
 }
+
+.boxes {
+    display: flex;
+    background-color: #F3F3F3;
+    margin-top: 6%;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+
+}
