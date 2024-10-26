@@ -310,3 +310,36 @@ main {
     cursor: pointer;
     opacity: 0.8;
 }
+
+.cases-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cases-box {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cases-box h2 {
+    display: flex;
+    margin-top: 6%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #B9FF66;
+}
+
+.cases-box p {
+    text-align: center;
+    margin-top: 4%;
+}
