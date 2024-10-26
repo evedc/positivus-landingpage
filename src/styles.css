@@ -271,7 +271,7 @@ main {
 .boxes-containerfinal {
     display: flex;
     width: 90%;
-    height: 20.125em;
+    height: 22em;
     justify-content: center;
     align-items: center;
     background-color: #F3F3F3;
