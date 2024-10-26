@@ -65,7 +65,7 @@ main {
     border: none;
     height: 50px;
     border-radius: 20px;
-    background-color: #000000;
+    background-color: #191A23;
     color: #ffffff;
 }
 
@@ -235,7 +235,7 @@ main {
     height: 20.125em;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #191A23;
     margin-top: 6%;
     flex-direction: column;
     border-radius: 20px;
@@ -303,7 +303,7 @@ main {
     border: none;
     height: 50px;
     border-radius: 10px;
-    background-color: #000000;
+    background-color: #191A23;
     color: #ffffff;
     font-size: 16px;
 }
@@ -344,4 +344,29 @@ main {
 .cases-box p {
     text-align: center;
     margin-top: 4%;
+}
+
+.slides-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 15.625em;
+    background-color: #191A23;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.slides {
+    width: 80%;
+    text-align: left;
+}
+
+.more {
+    display: flex;
+    margin-top: 10%;
+    text-decoration: none;
+    color: #B9FF66;
+    font-size: 16px;
+
 }
