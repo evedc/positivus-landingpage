@@ -10,7 +10,7 @@
 header {
     display: flex;
     width: 100%;
-    height: 85vh;
+    height: auto;
     flex-direction: column;
     justify-items: center;
     align-items: center;
@@ -39,6 +39,12 @@ main {
     align-items: center;
 }
 
+.box-header img {
+    max-width: 100%;
+    height: auto;
+
+}
+
 .box-header h1 {
     display: flex;
     align-items: center;
@@ -49,7 +55,7 @@ main {
 }
 
 .box-header p {
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 300;
 }
 
@@ -75,7 +81,7 @@ main {
 .logo-slider {
     overflow: hidden;
     width: 100%;
-    margin-bottom: 6%;
+    margin: 10% 0 10% 0;
     background-color: #fff;
 
 }
