@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.box-header {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.box-header p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-header {
+    width: 90%;
+    margin-top: 10%;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-header:hover {
+    cursor: pointer;
+}
+
+.translate-container {
+    width: 100%;
+
+}
+
+.logo-slider {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 6%;
+    background-color: #fff;
+
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    animation: slide 20s linear infinite;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    filter: grayscale(100%);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-box {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.services-container h2 {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #B9FF66;
+}
+
+.services-container p {
+    text-align: center;
+    margin-top: 4%;
+}
