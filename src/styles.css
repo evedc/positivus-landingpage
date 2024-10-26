@@ -319,6 +319,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px
 }
 
 .cases-box {
@@ -339,11 +340,13 @@ main {
     padding: 10px;
     border-radius: 10px;
     background-color: #B9FF66;
+
 }
 
 .cases-box p {
     text-align: center;
     margin-top: 4%;
+
 }
 
 .slides-container {
@@ -369,4 +372,8 @@ main {
     color: #B9FF66;
     font-size: 16px;
 
+}
+
+.more:hover {
+    opacity: 0.9;
 }
