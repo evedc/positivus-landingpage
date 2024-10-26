@@ -282,7 +282,7 @@ main {
 }
 
 .box-final {
-    width: 70%;
+    width: 90%;
 }
 
 .box-final h3 {
@@ -299,6 +299,7 @@ main {
 .btn-services {
     width: 80%;
     margin-top: 10%;
+    margin-bottom: 5%;
     border: none;
     height: 50px;
     border-radius: 10px;
