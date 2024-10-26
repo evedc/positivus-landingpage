@@ -139,7 +139,7 @@ main {
     margin-top: 4%;
 }
 
-.boxes-container {
+.boxes-container1 {
     display: flex;
     width: 90%;
     justify-content: center;
@@ -162,7 +162,7 @@ main {
     align-items: center;
 }
 
-.box1 {
+.box-title1 {
     display: flex;
     height: 40%;
     overflow: hidden;
@@ -170,21 +170,97 @@ main {
     align-items: end;
 }
 
-.box1 h2 {
+.box-title1 h2 {
     display: flex;
     height: 80px;
     background-color: #B9FF66;
     font-size: 1.2rem;
 }
 
-.box2 {
+.boxes-2 {
     display: flex;
     width: 100%;
     height: 50%;
+    margin-top: 4%;
     align-items: end;
 }
 
 .icone {
     display: flex;
     width: 50%;
+}
+
+.boxes-container2 {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9FF66;
+    margin-top: 6%;
+    flex-direction: column;
+    width: 390px;
+    height: 320px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    border-bottom: 4px solid #000000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box-title2 {
+    display: flex;
+    height: 40%;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.box-title2 h2 {
+    display: flex;
+    height: 80px;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+}
+
+
+
+.boxes-container3 {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    ;
+    margin-top: 6%;
+    flex-direction: column;
+    width: 390px;
+    height: 320px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    border-bottom: 4px solid #000000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box-title3 {
+    display: flex;
+    height: 40%;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.box-title3 h2 {
+    display: flex;
+    height: 80px;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.boxes-3 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 4%;
+    align-items: end;
 }
