@@ -279,10 +279,10 @@ main {
 }
 
 .box-final {
-    width: 80%;
+    width: 70%;
 }
 
-.box-final h2 {
+.box-final h3 {
     font-size: 30px;
     text-align: left;
 }
