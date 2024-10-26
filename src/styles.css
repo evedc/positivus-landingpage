@@ -71,6 +71,7 @@ main {
 
 .btn-header:hover {
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .translate-container {
