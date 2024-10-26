@@ -114,7 +114,6 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 .services-box {
@@ -128,7 +127,8 @@ main {
 .boxesmacro {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-container h2 {
@@ -148,14 +148,13 @@ main {
 
 .boxes-container1 {
     display: flex;
-    width: 90%;
     justify-content: center;
     align-items: center;
     background-color: #F3F3F3;
     margin-top: 6%;
     flex-direction: column;
-    width: 390px;
-    height: 320px;
+    width: 90%;
+    height: 35vh;
     border-radius: 20px;
     border: 1px solid #000000;
     border-bottom: 4px solid #000000;
@@ -200,13 +199,12 @@ main {
 .boxes-container2 {
     display: flex;
     width: 90%;
+    height: 35vh;
     justify-content: center;
     align-items: center;
     background-color: #B9FF66;
     margin-top: 6%;
     flex-direction: column;
-    width: 390px;
-    height: 320px;
     border-radius: 20px;
     border: 1px solid #000000;
     border-bottom: 4px solid #000000;
@@ -234,13 +232,12 @@ main {
 .boxes-container3 {
     display: flex;
     width: 90%;
+    height: 35vh;
     justify-content: center;
     align-items: center;
     background-color: #000000;
     margin-top: 6%;
     flex-direction: column;
-    width: 390px;
-    height: 320px;
     border-radius: 20px;
     border: 1px solid #000000;
     border-bottom: 4px solid #000000;
@@ -273,14 +270,13 @@ main {
 
 .boxes-containerfinal {
     display: flex;
-    width: 100%;
+    width: 90%;
+    height: 35vh;
     justify-content: center;
     align-items: center;
     background-color: #F3F3F3;
     margin-top: 6%;
     flex-direction: column;
-    width: 390px;
-    height: 320px;
     border-radius: 20px;
     overflow: hidden;
 }
