@@ -1,3 +1,4 @@
+/*
 new Swiper('.card-wrapper', {
     loop: true,
     spaceBetween: 3,
@@ -21,3 +22,4 @@ new Swiper('.card-wrapper', {
         },
     }
 });
+*/

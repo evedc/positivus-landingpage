@@ -328,6 +328,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
 }
 
 .cases-box h2 {
@@ -358,7 +359,7 @@ main {
     background-color: #191A23;
     color: #ffffff;
     border-radius: 50px;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .slides {
@@ -377,4 +378,8 @@ main {
 
 .more:hover {
     opacity: 0.9;
+}
+
+.card-list .card-item {
+    list-style: none;
 }
