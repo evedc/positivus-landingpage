@@ -37,3 +37,23 @@ slidesContainer.addEventListener('touchmove', (e) => {
     const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
 });
+
+
+// Seleciona todas as perguntas do FAQ
+const faqQuestions = document.querySelectorAll('.faq-question');
+
+faqQuestions.forEach((question) => {
+    question.addEventListener('click', () => {
+        const faqItem = question.parentElement;
+
+        // Adiciona ou remove a classe 'active' no item clicado
+        faqItem.classList.toggle('active');
+
+        // Fechar outras respostas
+        faqQuestions.forEach((item) => {
+            if (item !== question) {
+                item.parentElement.classList.remove('active');
+            }
+        });
+    });
+});

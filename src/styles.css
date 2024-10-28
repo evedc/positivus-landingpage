@@ -356,7 +356,6 @@ main {
     width: 100%;
 }
 
-/* Configuração do contêiner dos slides */
 .slides-container {
     display: flex;
     overflow-x: scroll;
@@ -400,4 +399,60 @@ main {
 
 .slides-container::-webkit-scrollbar {
     display: none;
+}
+
+/* Estilos para cada item do FAQ */
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    width: 100%;
+    margin-top: 4%;
+    background: #F3F3F3;
+    color: #191A23;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-bottom: 4px solid #000000;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question span {
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+/* Estilos para a resposta */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: #9cff00;
+    padding: 0 15px;
+    border-radius: 20px
+}
+
+.faq-answer p {
+    margin: 10px 0;
+    padding: 0;
+    color: #333;
+    font-size: 15px;
+}
+
+
+.faq-item.active .faq-answer {
+    max-height: 100px;
+
+}
+
+.faq-item.active .faq-question span {
+    transform: rotate(45deg);
+    /* Gira o símbolo '+' para 'x' */
 }
