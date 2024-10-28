@@ -350,22 +350,24 @@ main {
 
 }
 
-
+/* Configuração do contêiner principal */
 .container {
     overflow: hidden;
     width: 100%;
 }
 
-
+/* Configuração do contêiner dos slides */
 .slides-container {
-    display: inline-flex;
-    overflow-x: auto;
+    display: flex;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     gap: 16px;
     padding: 16px;
+    scroll-behavior: smooth;
+    /* Faz o slide ser suave */
 }
 
-
+/* Cada slide */
 .slides {
     flex: 0 0 80%;
     background-color: #111;
@@ -373,8 +375,10 @@ main {
     padding: 20px;
     border-radius: 12px;
     scroll-snap-align: start;
+    white-space: normal;
 }
 
+/* Estilo do link "Learn More" */
 .more {
     color: #9cff00;
     font-weight: bold;
@@ -383,13 +387,13 @@ main {
     text-decoration: none;
 }
 
-
+/* Ícone de seta */
 .material-symbols-outlined {
     font-size: 16px;
     vertical-align: middle;
 }
 
-
+/* Oculta a barra de rolagem para aparência mais limpa */
 .slides-container::-webkit-scrollbar {
     display: none;
 }
