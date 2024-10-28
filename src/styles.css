@@ -350,36 +350,46 @@ main {
 
 }
 
-.slides-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 15.625em;
-    background-color: #191A23;
-    color: #ffffff;
-    border-radius: 50px;
-    margin-top: 6%;
+
+.container {
+    overflow: hidden;
+    width: 100%;
 }
 
+
+.slides-container {
+    display: inline-flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding: 16px;
+}
+
+
 .slides {
-    width: 80%;
-    text-align: left;
+    flex: 0 0 80%;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    scroll-snap-align: start;
 }
 
 .more {
-    display: flex;
-    margin-top: 10%;
+    color: #9cff00;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
     text-decoration: none;
-    color: #B9FF66;
+}
+
+
+.material-symbols-outlined {
     font-size: 16px;
-
+    vertical-align: middle;
 }
 
-.more:hover {
-    opacity: 0.9;
-}
 
-.card-list .card-item {
-    list-style: none;
+.slides-container::-webkit-scrollbar {
+    display: none;
 }
