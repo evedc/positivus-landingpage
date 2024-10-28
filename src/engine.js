@@ -22,11 +22,11 @@ slidesContainer.addEventListener('mousemove', (e) => {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - slidesContainer.offsetLeft;
-    const walk = (x - startX) * 2; // Ajusta a velocidade do arraste
+    const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
 });
 
-// Suporte para toque (mobile)
+
 slidesContainer.addEventListener('touchstart', (e) => {
     startX = e.touches[0].pageX - slidesContainer.offsetLeft;
     scrollLeft = slidesContainer.scrollLeft;
@@ -34,6 +34,6 @@ slidesContainer.addEventListener('touchstart', (e) => {
 
 slidesContainer.addEventListener('touchmove', (e) => {
     const x = e.touches[0].pageX - slidesContainer.offsetLeft;
-    const walk = (x - startX) * 2; // Ajusta a velocidade do arraste
+    const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
 });
