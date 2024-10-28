@@ -422,12 +422,16 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+
 }
 
 .faq-question span {
     font-size: 18px;
     transition: transform 0.3s;
+}
+
+.faq-question p {
+    margin-left: 4%;
 }
 
 /* Estilos para a resposta */
