@@ -434,7 +434,7 @@ main {
     margin-left: 4%;
 }
 
-/* Estilos para a resposta */
+
 .faq-answer {
     max-height: 0;
     overflow: hidden;
@@ -459,5 +459,61 @@ main {
 
 .faq-item.active .faq-question span {
     transform: rotate(45deg);
-    /* Gira o símbolo '+' para 'x' */
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-box {
+    display: flex;
+    width: 90%;
+}
+
+.img-team {
+    width: 40%;
+}
+
+.name-team {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.name-team h2 {
+    font-size: 20px;
+    display: flex;
+
+}
+
+.name-team h3 {
+    font-weight: 16px;
+    font-weight: 300;
+    display: flex;
+    text-align: left;
+}
+
+.bio {
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+
+}
+
+.bio p {
+    display: flex;
+    font-size: 16px;
+    text-align: left;
+    justify-content: left;
+
+}
+
+.hr-team {
+    width: 70%;
+    margin-top: 8%;
 }
