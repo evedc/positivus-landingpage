@@ -472,6 +472,7 @@ main {
 .team-box {
     display: flex;
     width: 90%;
+    justify-content: space-between;
 }
 
 .img-team {
@@ -607,7 +608,6 @@ main {
     color: #bbb;
 }
 
-/* Estilo dos indicadores */
 .testimonial-indicators {
     display: flex;
     justify-content: center;
