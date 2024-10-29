@@ -517,3 +517,19 @@ main {
     width: 70%;
     margin-top: 8%;
 }
+
+.btn-team {
+    width: 90%;
+    margin-top: 10%;
+    font-size: 16px;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #191A23;
+    color: #ffffff;
+}
+
+.btn-team:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
