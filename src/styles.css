@@ -627,3 +627,10 @@ main {
 .indicator.active {
     background-color: #B9FF66;
 }
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
