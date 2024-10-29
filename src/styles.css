@@ -630,7 +630,81 @@ main {
 
 .contact-container {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #F3F3F3;
+}
+
+.quotes {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+
+
+.radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.checkmark {
+    border: 1px solid #191A23;
+}
+
+.radio-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+
+.radio-container input[type="radio"]:checked+.checkmark {
+    background-color: #ffffff;
+
+}
+
+.radio-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-container input[type="radio"]:checked+.checkmark:after {
+    display: block;
+}
+
+.radio-container .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #B9FF66;
 }

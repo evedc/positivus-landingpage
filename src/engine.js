@@ -80,8 +80,3 @@ indicators.forEach((indicator) => {
     });
 });
 
-// Navegação automática (opcional)
-// setInterval(() => {
-//     currentIndex = (currentIndex + 1) % slides.length;
-//     updateSlidePosition();
-// }, 5000);
