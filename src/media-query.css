@@ -1,0 +1,32 @@
+/* Todas as demais telas */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .boxesmacro {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .boxes-containerfinal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .subscribe-box {
+        width: 60%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 1200px) {}
