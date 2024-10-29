@@ -641,7 +641,7 @@ main {
     flex-direction: column;
     margin-top: 4%;
     width: 80%;
-    height: 400px;
+    height: 380px;
     border-radius: 20px;
     background-color: #F3F3F3;
 }
@@ -651,7 +651,7 @@ main {
     width: 100%;
     gap: 20px;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 
@@ -707,4 +707,51 @@ main {
     height: 10px;
     border-radius: 50%;
     background: #B9FF66;
+}
+
+
+.dados-box {
+    margin-top: 4%;
+    width: 90%;
+    justify-content: center;
+    text-align: left;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    margin-left: 4%;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #191A23;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 16px;
+
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.btn-form {
+    width: 90%;
+    margin-top: 10%;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #191A23;
+    color: #ffffff;
+}
+
+.btn-form:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
