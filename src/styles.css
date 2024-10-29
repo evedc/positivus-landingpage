@@ -829,6 +829,7 @@ a:active {
     align-items: center;
     justify-content: center;
     display: flex;
+    font-weight: 500;
 }
 
 .contact-box ul {
@@ -836,4 +837,75 @@ a:active {
     color: #ffffff;
     padding: 0;
     font-weight: 200;
+}
+
+.subscribe-box {
+    display: flex;
+    width: 90%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+}
+
+.email2 {
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+}
+
+.email2::placeholder {
+    color: #fff;
+    opacity: 0.8;
+
+}
+
+.btn-contact {
+    width: 60%;
+    margin-top: 4%;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #B9FF66;
+    color: #191A23;
+    font-size: 16px;
+}
+
+.btn-contact:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.icon-img {
+    padding: 20px;
+    gap: 20px;
+}
+
+.icon-img a {
+    margin-right: 15px;
+}
+
+.hr-footer {
+    width: 80%;
+    color: #F3F3F3;
+    margin: 20px;
+}
+
+footer h3 {
+    color: #F3F3F3;
+    font-weight: 300;
+    font-family: 12px;
 }
