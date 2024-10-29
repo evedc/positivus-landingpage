@@ -57,3 +57,31 @@ faqQuestions.forEach((question) => {
         });
     });
 });
+
+
+const wrapper = document.querySelector('.testimonial-wrapper');
+const slides = document.querySelectorAll('.testimonial-slide');
+const indicators = document.querySelectorAll('.indicator');
+let currentIndex = 0;
+
+function updateSlidePosition() {
+    const offset = -currentIndex * 100;
+    wrapper.style.transform = `translateX(${offset}%)`;
+
+    indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === currentIndex);
+    });
+}
+
+indicators.forEach((indicator) => {
+    indicator.addEventListener('click', (e) => {
+        currentIndex = parseInt(e.target.getAttribute('data-index'));
+        updateSlidePosition();
+    });
+});
+
+// Navegação automática (opcional)
+// setInterval(() => {
+//     currentIndex = (currentIndex + 1) % slides.length;
+//     updateSlidePosition();
+// }, 5000);
