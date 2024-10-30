@@ -243,17 +243,74 @@
     }
 
     .form-box {
-        width: 100%;
-        border: 1px solid red;
+        width: 80%;
         display: flex;
         height: auto;
         background-image: url(./images/bg-2.png);
         background-position: right;
         background-repeat: no-repeat;
         background-size: contain;
+
+    }
+
+    .btn-form {
+        margin-bottom: 10%;
+    }
+
+    footer {
+        display: flex;
+        width: 70%;
+        margin-top: 30px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+
+    .versaodesktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .links-footer ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 20px;
+        color: #ffffff;
+        width: 100%;
+    }
+
+    .logo-footer {
+        display: flex;
+        width: 30%;
+    }
+
+    .versaodesktop2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-box {
+        width: 50%;
     }
 
     .subscribe-box {
-        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: row;
+        height: 150px;
+        width: 30%;
+
+    }
+
+    .sub-box {
+        display: flex;
+        flex-direction: row;
+
     }
 }
