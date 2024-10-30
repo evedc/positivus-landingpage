@@ -83,6 +83,11 @@
         max-width: 1200px;
     }
 
+    .box-header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
 
 
     .translate-container {
@@ -301,6 +306,10 @@
 
     .testimonial-container {
         width: 50%;
+    }
+
+    .testimonials-container2 {
+        width: 100%;
     }
 
     .subscribe-box {
