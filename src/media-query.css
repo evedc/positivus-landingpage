@@ -234,7 +234,23 @@
     .btn-team {
         width: 30%;
         margin: 40px;
-        justify-content: right;
+
+    }
+
+    .contact-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-box {
+        width: 100%;
+        border: 1px solid red;
+        display: flex;
+        height: auto;
+        background-image: url(./images/bg-2.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .subscribe-box {
