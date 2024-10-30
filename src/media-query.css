@@ -299,6 +299,10 @@
         width: 50%;
     }
 
+    .testimonial-container {
+        width: 50%;
+    }
+
     .subscribe-box {
         display: flex;
         justify-content: center;
