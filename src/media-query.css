@@ -96,6 +96,32 @@
         grid-template-columns: 2fr 2fr;
     }
 
+    .boxes-containerfinal {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 60%;
+        background-image: url(./images/bg-btn.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .box-final {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .box-final p {
+        width: 50%;
+    }
+
+    .btn-services {
+        width: 40%;
+    }
+
     .services-box {
         display: flex;
         flex-direction: row;
@@ -118,16 +144,13 @@
         margin: 0;
     }
 
-    .cases-container {
-        width: 100%;
-    }
+
 
     .services-container {
         display: flex;
         width: 100%;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
         margin: auto;
     }
 
@@ -152,6 +175,49 @@
         margin: 0;
     }
 
+    .cases-container {
+        display: flex;
+        width: 100%;
+        justify-items: center;
+        margin: auto;
+    }
+
+    .slides-container {
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+
+    }
+
+    .slides {
+        flex: 0 0 calc(33.33% - 20px);
+        margin: 10px;
+
+    }
+
+    .faq-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq-container2 {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        width: 60%;
+    }
+
+    .faq-item {
+        margin: 0;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
     .boxes-containerfinal {
         display: flex;
         justify-content: center;
@@ -160,8 +226,15 @@
 
     .box-container {
         display: grid;
-        width: 100%;
+        justify-items: center;
+        width: 90%;
         grid-template-columns: 2fr 2fr;
+    }
+
+    .btn-team {
+        width: 30%;
+        margin: 40px;
+        justify-content: right;
     }
 
     .subscribe-box {

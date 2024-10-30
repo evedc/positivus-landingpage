@@ -3,7 +3,14 @@ let isDown = false;
 let startX;
 let scrollLeft;
 
+// Função para verificar o tamanho da tela
+function isMobileView() {
+    return window.innerWidth < 1024; // Limite para desativar o slider em telas grandes
+}
+
+// Eventos para desktop (mouse)
 slidesContainer.addEventListener('mousedown', (e) => {
+    if (!isMobileView()) return; // Se a tela for maior, não ativa o slider
     isDown = true;
     slidesContainer.classList.add('active');
     startX = e.pageX - slidesContainer.offsetLeft;
@@ -19,20 +26,22 @@ slidesContainer.addEventListener('mouseup', () => {
 });
 
 slidesContainer.addEventListener('mousemove', (e) => {
-    if (!isDown) return;
+    if (!isDown || !isMobileView()) return; // Desativa o movimento em telas grandes
     e.preventDefault();
     const x = e.pageX - slidesContainer.offsetLeft;
     const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
 });
 
-
+// Eventos para dispositivos móveis (toque)
 slidesContainer.addEventListener('touchstart', (e) => {
+    if (!isMobileView()) return; // Desativa o toque em telas grandes
     startX = e.touches[0].pageX - slidesContainer.offsetLeft;
     scrollLeft = slidesContainer.scrollLeft;
 });
 
 slidesContainer.addEventListener('touchmove', (e) => {
+    if (!isMobileView()) return; // Desativa o deslizar em telas grandes
     const x = e.touches[0].pageX - slidesContainer.offsetLeft;
     const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
