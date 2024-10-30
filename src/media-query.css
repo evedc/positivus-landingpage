@@ -98,7 +98,22 @@
     .services-box {
         display: flex;
         flex-direction: row;
+        height: auto;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+        text-align: center;
+        gap: 30px
+    }
+
+    .services-box h2 {
+        display: flex;
+        margin: 0;
+    }
+
+    .services-box p {
+        display: flex;
+        margin: 0;
     }
 
     .cases-container {
@@ -112,10 +127,23 @@
     .cases-box {
         display: flex;
         flex-direction: row;
+        height: auto;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+        text-align: center;
+        gap: 30px
     }
 
+    .cases-box h2 {
+        display: flex;
+        margin: 0;
+    }
 
+    .cases-box p {
+        display: flex;
+        margin: 0;
+    }
 
     .boxes-containerfinal {
         display: flex;
