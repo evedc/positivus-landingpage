@@ -127,6 +127,7 @@ main {
 
 .boxesmacro {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -469,6 +470,14 @@ main {
     align-items: center;
 }
 
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .team-box {
     display: flex;
     width: 90%;
@@ -535,10 +544,10 @@ main {
     cursor: pointer;
 }
 
-.testimonials-container {
+.testimonials-container2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     align-items: center;
 }
@@ -764,6 +773,22 @@ footer {
     background-color: #191A23;
     width: 100%;
     margin-top: 15%;
+}
+
+.versaodesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.versaodesktop2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .logo-footer {

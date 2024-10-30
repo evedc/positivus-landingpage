@@ -3,14 +3,14 @@ let isDown = false;
 let startX;
 let scrollLeft;
 
-// Função para verificar o tamanho da tela
+
 function isMobileView() {
-    return window.innerWidth < 1024; // Limite para desativar o slider em telas grandes
+    return window.innerWidth < 1024;
 }
 
 // Eventos para desktop (mouse)
 slidesContainer.addEventListener('mousedown', (e) => {
-    if (!isMobileView()) return; // Se a tela for maior, não ativa o slider
+    if (!isMobileView()) return;
     isDown = true;
     slidesContainer.classList.add('active');
     startX = e.pageX - slidesContainer.offsetLeft;
@@ -26,39 +26,38 @@ slidesContainer.addEventListener('mouseup', () => {
 });
 
 slidesContainer.addEventListener('mousemove', (e) => {
-    if (!isDown || !isMobileView()) return; // Desativa o movimento em telas grandes
+    if (!isDown || !isMobileView()) return;
     e.preventDefault();
     const x = e.pageX - slidesContainer.offsetLeft;
     const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
 });
 
-// Eventos para dispositivos móveis (toque)
+
 slidesContainer.addEventListener('touchstart', (e) => {
-    if (!isMobileView()) return; // Desativa o toque em telas grandes
+    if (!isMobileView()) return;
     startX = e.touches[0].pageX - slidesContainer.offsetLeft;
     scrollLeft = slidesContainer.scrollLeft;
 });
 
 slidesContainer.addEventListener('touchmove', (e) => {
-    if (!isMobileView()) return; // Desativa o deslizar em telas grandes
+    if (!isMobileView()) return;
     const x = e.touches[0].pageX - slidesContainer.offsetLeft;
     const walk = (x - startX) * 2;
     slidesContainer.scrollLeft = scrollLeft - walk;
 });
 
 
-// Seleciona todas as perguntas do FAQ
 const faqQuestions = document.querySelectorAll('.faq-question');
 
 faqQuestions.forEach((question) => {
     question.addEventListener('click', () => {
         const faqItem = question.parentElement;
 
-        // Adiciona ou remove a classe 'active' no item clicado
+
         faqItem.classList.toggle('active');
 
-        // Fechar outras respostas
+
         faqQuestions.forEach((item) => {
             if (item !== question) {
                 item.parentElement.classList.remove('active');
