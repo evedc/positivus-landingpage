@@ -169,6 +169,18 @@
 
     .hamburger {
         display: none;
+
+        font-size: 2rem;
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        background: none;
+
+        border: none;
+
+        color: #000;
+        cursor: pointer;
+        z-index: 2;
     }
 
     .box-header {
