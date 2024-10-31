@@ -1,3 +1,18 @@
+/* MENU LATERAL */
+// Função para alternar o menu lateral
+function toggleMenu() {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('active');
+}
+
+// Fecha o menu automaticamente ao redimensionar para telas maiores que 768px
+window.addEventListener('resize', function () {
+    const nav = document.querySelector('nav');
+    if (window.innerWidth > 768) {
+        nav.classList.remove('active');
+    }
+});
+
 const slidesContainer = document.getElementById('slides-container');
 let isDown = false;
 let startX;
