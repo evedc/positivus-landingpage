@@ -170,7 +170,7 @@ nav.active {
     width: 100%;
     margin: 10% 0 10% 0;
     background-color: #fff;
-    z-index: 1;
+    z-index: -1;
 
 }
 
