@@ -8,7 +8,6 @@ function isMobileView() {
     return window.innerWidth < 1024;
 }
 
-// Eventos para desktop (mouse)
 slidesContainer.addEventListener('mousedown', (e) => {
     if (!isMobileView()) return;
     isDown = true;

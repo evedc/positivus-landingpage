@@ -26,6 +26,8 @@
 
 
 @media (min-width: 992px) and (max-width: 1200px) {
+
+
     .boxesmacro {
         display: grid;
         width: 100%;
@@ -81,6 +83,81 @@
     main {
         width: 100%;
         max-width: 1200px;
+    }
+
+    nav {
+        display: flex;
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        position: fixed;
+        background-color: #fff;
+        width: 70%;
+        height: 60px;
+    }
+
+    .box-header {
+        margin-top: 10%;
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+    }
+
+    .links-container a {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        color: #000;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    .links-container a:hover {
+        opacity: 0.9;
+    }
+
+    .contato {
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        margin-right: 3%;
+    }
+
+    .imagem-container {
+        display: flex;
+        justify-content: center;
+        margin-left: 3%;
+        width: 15%;
+
+    }
+
+    .contato {
+        width: 12%;
+    }
+
+    .btn-contato {
+        background-color: transparent;
+        border: 1px solid #000;
+        font-size: 1rem;
+        color: #000;
+        width: 100vw;
+        height: 50px;
+        border-radius: 10px;
+
+    }
+
+    .btn-contato:hover {
+        opacity: .8;
+        font-size: 1.05rem;
+        transition: 1s ease;
+        cursor: pointer;
+
     }
 
     .box-header {
