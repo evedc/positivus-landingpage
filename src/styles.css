@@ -31,15 +31,14 @@ main {
     text-align: center;
 }
 
-/* Oculta o menu padrão e exibe o botão de hambúrguer */
+
 nav {
     display: none;
 }
 
 .hamburger {
     display: block;
-    /* Exibe o ícone de hambúrguer em telas menores */
-    font-size: 2rem;
+    font-size: 5rem;
     position: fixed;
     top: 15px;
     left: 15px;
@@ -47,6 +46,7 @@ nav {
     border: none;
     cursor: pointer;
     z-index: 2;
+    color: #000;
 }
 
 .imagem-container {
@@ -90,7 +90,6 @@ nav.active {
 
 .links-container a:hover {
     opacity: 0.9;
-    font-size: 1.1rem;
 }
 
 .links-container a:active .contato {
@@ -123,6 +122,7 @@ nav.active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 .box-header img {
