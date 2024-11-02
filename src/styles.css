@@ -49,6 +49,10 @@ nav {
     color: #000;
 }
 
+.boxheader-desktop {
+    display: none;
+}
+
 .imagem-container {
     display: none;
 }
@@ -67,6 +71,7 @@ nav.active {
     padding-top: 60px;
     gap: 20px;
     color: #000;
+    z-index: 1;
 
 }
 
